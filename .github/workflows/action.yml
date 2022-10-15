@@ -2,7 +2,7 @@ name: Mkdocs Build and Deploy
 
 on: 
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   pages:
@@ -14,7 +14,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
         with:
-          ref: master
+          ref: main
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
