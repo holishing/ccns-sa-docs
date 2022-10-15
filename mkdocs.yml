@@ -1,0 +1,29 @@
+site_name: CCNS SysAdmin 101
+theme:
+  name: material
+  logo: 'https://avatars.githubusercontent.com/u/7893404'
+  favicon: 'https://avatars.githubusercontent.com/u/7893404'
+  language: zh-TW
+  font:
+    text: "Noto Sans Traditional Chinese"
+  palette:
+    - scheme: default
+      primary: teal
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: amber
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+#extra_css:
+#    - stylesheets/extra.css
+nav:
+    - 'CCNS SysAdmin 101 Intro': index.md
+site_description: 'CCNS SysAdmin 101'
+markdown_extensions:
+    - pymdownx.emoji
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
